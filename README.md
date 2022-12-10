@@ -15,7 +15,7 @@ For using this code you need to install ``pytube``.
 Running script
 ---------------------
 
-You can play with random word running ``downloader``:
+You can can execute this script by running ``downloader``:
 
     $ python downloader.py
 
