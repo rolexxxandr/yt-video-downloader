@@ -39,7 +39,7 @@ def download_file():
 window = Tk()
 window.title("Downloader")
 window.geometry("300x100")
-window.resizable(True, True)
+window.resizable(False, False)
 
 link = StringVar()
 
