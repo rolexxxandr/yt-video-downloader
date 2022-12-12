@@ -5,8 +5,6 @@ from tkinter.ttk import Combobox
 from tkinter.ttk import Progressbar
 
 def download_highest():
-    bar = Progressbar(window, length=50)
-    bar["value"] = 70
     yt = YouTube(str(link.get()))
     video = yt.streams.get_highest_resolution()
     video.download()
