@@ -2,7 +2,6 @@ from pytube import YouTube
 from tkinter import *
 from tkinter import messagebox
 from tkinter.ttk import Combobox
-from tkinter.ttk import Progressbar
 
 def download_highest():
     yt = YouTube(str(link.get()))
